@@ -1,4 +1,4 @@
-Hey there! This repo is where I’m learning machine learning step by step — from the basics to real-world projects. It’s all hands-on, and I’m sharing my progress as I go.
+Hey there! This repo is where I’m learning machine learning step by step from the basics to real world projects. It’s all hands-on, and I’m sharing my progress as I go.
 
 # What’s Inside?
 1-data-preprocessing: Encoding, scaling, splitting — all the prep work.
