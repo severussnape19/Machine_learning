@@ -1,0 +1,11 @@
+### Self Notes###
+Classification: Used to predict categories
+-> Contains both linear and non linear models
+
+-> Logistic regression curve is called as the sigmoid curve and it is a linear model.
+-> KNN assigns a new point based on how many neighbors of each cateogory it has. The new data point gets assigned to the category which has the most closest points.
+
+We don't fit the X_test with the standard scaler as it causes data leakage.
+i.e, if we fit the the Standard scaler with the X_test, the model already knows the values inside the test set. This might make the model have more accuracy but it
+will cause the model to not perform the same with new data.
+(It's like giving away questions way before an exam)
