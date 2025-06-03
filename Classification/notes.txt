@@ -11,3 +11,15 @@ i.e, if we fit the the Standard scaler with the X_test, the model already knows 
 
 Used a very simple data set to learn new models.
 The graphs are from chatGPT!
+
+-> Logistic theorem does'nt necessarily require the features to be independent (I've mistaken about that). It just *assumes* that the features are independent
+
+### Reading a Heatmap ###
++1: Perfect positive correlation
+0: No correlation
+-1: Perfect negative correlation
+
+If two features are very similar (e.g., correlation > 0.8), logistic regression might:
+Still work
+But become unstable, especially if you interpret the model (coefficients become unreliable)
+You don’t have to remove them always, but if you're cleaning data or building interpretable models, it’s good to be aware.
