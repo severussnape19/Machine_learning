@@ -1,0 +1,14 @@
+In medical diagnosis, especially for cancer detection, minimizing False Negatives is very important.
+A False Negative means, a cancerous case is wrongly predicted as non-cancerous, which means the people who need to be treated assume they're fine.
+This can be very dangeorous as the person who really needs the treatment won't be treated and the cancer will progress which threatens their life.
+
+# Naive Bayes and Support vector machine with the RBF kernel gave out the most false negatives.
+# 7 and 5 false postives respectively.
+# Accuracies are 94.9% and 95.6% respectively.
+
+# Even with pretty good acuracy rates, I would'nt prefer using Naive Bayes as it has the most false poitives. 
+
+# The plots in the notebook show us the amount of false positives and their overall accuracy scores.
+
+# Logistic regression and Decision tree classification both had 95.6% accuracy while having only 3 false positives.
+Though I'd prefer higher accuracy and lesser false negatives.
