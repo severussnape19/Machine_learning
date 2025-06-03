@@ -12,3 +12,5 @@ This can be very dangeorous as the person who really needs the treatment won't b
 
 # Logistic regression and Decision tree classification both had 95.6% accuracy while having only 3 false positives.
 Though I'd prefer higher accuracy and lesser false negatives.
+
+Random Forest did a bit worse than expected, possibly due to overfitting or hyperparameter defaults.
