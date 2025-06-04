@@ -39,4 +39,4 @@ Summary Table
 Score	                    Measures	                          What it Tells Me
 ARI	            Match with true labels (adjusted)	      My clusters are aligned with actual classes
 NMI            	Shared structure/information	          I captured the underlying label patterns
-Silhouette	    Cluster cohesion + separation	          My clusters are compact, but slightly overlapping
+Silhouette	     Cluster cohesion + separation	          My clusters are compact, but slightly overlapping
