@@ -41,5 +41,12 @@ ARI	            Match with true labels (adjusted)	      My clusters are aligned 
 NMI            	Shared structure/information	          I captured the underlying label patterns
 Silhouette	     Cluster cohesion + separation	          My clusters are compact, but slightly overlapping
 
+# Linear SVM had similar scores on both training and testing sets (95%) this is a really great sign and it tells us that the model is generalizing well
+and it is learning well
+
+# Random Forest showed overfitting as it's accuracy score was a perfect 100% which is suspicious and it is a clear sign of overfitting.
+Overfitting causes the model to perform well on the current data set but evaluating future data with this model won't give us accurate results
+as the model memorizes the data instead of learning the patterns.
+
 I learned how to measure different metrics such as ARI, NMI and Silhouette through this mini project. It was quite a fun project! I learned
 alot through this and also identified my mistakes. I have a long road ahead and hoping to get better as i progress!
