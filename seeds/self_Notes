@@ -47,6 +47,11 @@ and it is learning well
 # Random Forest showed overfitting as it's accuracy score was a perfect 100% which is suspicious and it is a clear sign of overfitting.
 Overfitting causes the model to perform well on the current data set but evaluating future data with this model won't give us accurate results
 as the model memorizes the data instead of learning the patterns.
+# IMP #
+
+# Cross-validation helps identify the most reliable model — even if its test accuracy looks similar.
+# Simplicity wins when data supports it.
+# If your Linear SVM has both high train/test accuracy AND highest CV score, that’s your best model.
 
 I learned how to measure different metrics such as ARI, NMI and Silhouette through this mini project. It was quite a fun project! I learned
 alot through this and also identified my mistakes. I have a long road ahead and hoping to get better as i progress!
