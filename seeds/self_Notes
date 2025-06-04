@@ -1,0 +1,42 @@
+1. Adjusted Rand Index (ARI)
+What it tells me:
+Measures how well my clustering results match the true class labels, while correcting for random chance.
+
+Range:
+-1 (worst), 0 (random labeling), 1 (perfect match)
+ Above 0.7 = Strong agreement
+
+My Result (0.773):
+My clusters closely match the true labels.
+So, my clustering approach is meaningful and aligned with actual classes.
+
+ 2. Normalized Mutual Information (NMI)
+What it tells me:
+Checks how much information is shared between predicted clusters and actual class labels.
+
+Range:
+0 (no shared info) to 1 (perfect correlation)
+
+My Result (0.728):
+A lot of the structure in the true labels is captured by my clusters, even if label numbers differ.
+This means the clustering follows similar patterns as the actual labels.
+
+3. Silhouette Score
+What it tells me:
+Evaluates how well each point fits in its cluster vs. how far it is from other clusters.
+In short — measures cluster tightness and separation.
+
+Range:
+-1 (bad), 0 (overlapping), 1 (ideal)
+ ~0.5 = Good separation,
+~0.3–0.4 = Some overlap
+
+My Result (0.401):
+My clusters are moderately well-separated, with some overlap.
+Still a decent result for biological data like wheat seed varieties.
+
+Summary Table
+Score	                    Measures	                          What it Tells Me
+ARI	            Match with true labels (adjusted)	      My clusters are aligned with actual classes
+NMI            	Shared structure/information	          I captured the underlying label patterns
+Silhouette	    Cluster cohesion + separation	          My clusters are compact, but slightly overlapping
